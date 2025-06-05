@@ -18,3 +18,23 @@ body {
   text-align:center;
   width:10em;
 }
+
+#buttons {
+  margin:auto;
+  width:700px;
+  height:210px;
+  padding:0;
+}
+
+#buttons img, #buttons button {
+  width:200px;
+  height:200px;
+  border-radius:20px;
+  margin:0;
+  float:left;
+  margin-right:10px;
+}
+
+#buttons img:hover, #buttons button:hover {
+  opacity:.5;
+}

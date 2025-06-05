@@ -8,9 +8,11 @@
   <body onload = "showRound();">
     <div id="scoreBox">Score: loading</div>
     <div id="statsBox">Loading ...</div>
-    <button onclick="cpuTurn('r');">Rock</button>
-    <button onclick="cpuTurn('p');">Paper</button>
-    <button onclick="cpuTurn('s');">Scissors</button>
+    <div id = "buttons">
+      <img src="https://static.wikia.nocookie.net/bwwe/images/c/c5/The_Rock_2.jpg" onclick="cpuTurn('r');">
+      <button onclick="cpuTurn('p');">Paper</button>
+      <button onclick="cpuTurn('s');">Scissors</button>
+    </div>
     <div id="result">Choose a move</div>
     <script src="script.js"></script>
   </body>
